@@ -44,6 +44,7 @@ main {
     overflow: auto;
     padding: 4rem;
     background-color: #F1ECEF;
+    box-shadow: 0 -3px 3px -3px #254559, 0 3px 3px -3px 
 }
 
 /* Tables */
@@ -80,7 +81,7 @@ th {
 }
 
 .na {
-    background-color: #F5AAB7;
+    background-color: #f5aab78a;
 }
 
 figcaption {
@@ -94,12 +95,18 @@ footer {
     grid-area: footer;
     text-align: center;
     padding: 1rem;
+    font-size: 18px;
 }
 
+address {
+    padding: 1rem;
+}
 
+address a {
+    text-decoration: none;
+    color: #F48C9C;
+}
 
-/* 
-
-https://icarus.cs.weber.edu/~aj90575/WEB1400/DesignGuide/index.html
-
-*/
+address a:hover {
+    color: #F5AAB7;
+}
