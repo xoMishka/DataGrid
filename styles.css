@@ -1,0 +1,70 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(/fonts/Ubuntu-Regular.ttf);
+}
+
+/*
+    Data Grid
+    By: Amber Jeffers
+    Date: November 8, 2021
+*/
+
+/* Global */
+:root { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header */
+header {
+
+}
+
+/* Tables */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table > caption {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.margin {
+    margin-top: 3rem;
+}
+
+table, th, td {
+    border: 2px solid purple;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.schedule th, td {
+    padding: 10px 60px;
+}
+
+th {
+    font-size: 20px;
+}
+
+.na {
+    background-color: lightcoral;
+}
+
+figcaption {
+    margin-top: 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+/* 
+
+https://icarus.cs.weber.edu/~aj90575/WEB1400/DesignGuide/index.html
+
+*/
