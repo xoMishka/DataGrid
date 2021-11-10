@@ -81,10 +81,10 @@ th {
 }
 
 .na {
-    background-color: #f5aab78a;
+    background-color: #f5aab756;
 }
 
-figcaption {
+.schedule > p {
     margin-top: 1em;
     text-align: center;
     font-style: italic;
